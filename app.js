@@ -1,4 +1,9 @@
 /* Rendering, petals, countdown, gallery. Text lives in data.js */
+/* Append pre-wedding photos to gallery */
+if(typeof C!=='undefined'&&C.gallery){
+  ['gallery1.jpg','gallery2.jpg','gallery3.jpg','gallery4.jpg','gallery5.jpg']
+    .forEach(f=>C.gallery.push([f,'Pre-wedding photo']));
+}
 const SITE_URL=location.origin+location.pathname.replace(/index\.html$/,'');
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
