@@ -303,8 +303,7 @@ section.s.dark::after{content:"";position:absolute;z-index:-1;left:calc(50% - 50
 .dark .bar{mix-blend-mode:screen;opacity:.85;filter:invert(1) hue-rotate(180deg)}
 
 /* optional big event photo: add "img": "photo.jpg" to an event in data.js */
-.ec img.eb{float:none;display:block;width:calc(100% + 28px);max-width:none;height:280px;object-fit:cover;object-position:center top;margin:-16px -14px 12px;border-radius:9px 9px 0 0;mix-blend-mode:normal}
-@media(min-width:600px){.ec img.eb{height:360px}}
+.ec img.eb{float:none;display:block;width:calc(100% + 28px);max-width:none;height:auto;object-fit:unset;margin:-16px -14px 12px;border-radius:9px 9px 0 0;mix-blend-mode:normal}
 
 /* top bar: monogram + menu button on phones */
 .topbar{align-items:center;justify-content:space-between}
