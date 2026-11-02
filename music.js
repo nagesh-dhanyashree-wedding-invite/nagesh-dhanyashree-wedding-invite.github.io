@@ -57,6 +57,14 @@ $('open').onclick=()=>{
     card.style.opacity='1';
     card.style.transform='none';
 
+    /* Add progress bar to show 3-second wait */
+    const bar=document.createElement('div');
+    bar.className='card-progress';
+    bar.innerHTML='<div class="card-progress-fill"></div><span>Opening invitation…</span>';
+    card.appendChild(bar);
+    /* Trigger animation after paint */
+    requestAnimationFrame(()=>requestAnimationFrame(()=>bar.classList.add('go')));
+
     /* Wait 3 seconds for user to see the card, then slide cover up and unlock scroll */
     setTimeout(()=>{
       cv.classList.add('open');

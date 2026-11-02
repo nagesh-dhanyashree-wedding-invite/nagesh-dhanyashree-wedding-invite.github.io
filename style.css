@@ -500,3 +500,16 @@ form button:hover:not(:disabled){background:#6e1b2e;transform:translateY(-1px)}
 /* 20. Event card images (uploaded Ghibli art) */
 .ec .eb{border-radius:10px}
 
+/* 21. Card progress bar (3-second wait indicator) */
+.card-progress{margin-top:18px;text-align:center}
+.card-progress span{display:block;font:italic 500 13px "Cormorant Garamond",serif;color:var(--soft);margin-bottom:8px;letter-spacing:.04em}
+.card-progress-fill{height:3px;width:100%;background:var(--line);border-radius:2px;overflow:hidden;position:relative}
+.card-progress-fill::after{content:"";position:absolute;left:0;top:0;height:100%;width:0;background:linear-gradient(90deg,#b8892f,#f7dc9a,#b8892f);border-radius:2px;transition:none}
+.card-progress.go .card-progress-fill::after{width:100%;transition:width 3s linear}
+
+/* 22. Hero scroll hint */
+.scroll-hint{margin-top:28px;display:flex;flex-direction:column;align-items:center;gap:6px;color:var(--gl);opacity:.7;animation:scrollbob 2s ease-in-out infinite}
+.scroll-hint span{font:italic 500 14px "Cormorant Garamond",serif;letter-spacing:.08em}
+.scroll-hint svg{width:22px;height:22px}
+@keyframes scrollbob{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
+
