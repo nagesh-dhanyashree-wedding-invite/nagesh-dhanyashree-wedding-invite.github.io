@@ -156,7 +156,7 @@ const S = {
       ],
       [
         "Shree Kuladevatha Prasanna",
-        "The invocation at the top of the invitation. It seeks the blessings of the family’s own deity (Kuladevata) before any auspicious beginning."
+        "The invocation at the top of the invitation. It seeks the blessings of the family's own deity (Kuladevata) before any auspicious beginning."
       ],
       [
         "Nischithartha (Engagement)",
@@ -172,18 +172,18 @@ const S = {
       ],
       [
         "Presents in Blessings Only",
-        "The family’s gentle request: your presence and blessings are the greatest gift, so no presents are needed."
+        "The family's gentle request: your presence and blessings are the greatest gift, so no presents are needed."
       ]
     ],
     "qg": "Thankful for the blessings that led me to this day.",
-    "qb": "Hand in hand, with our elders’ blessings, into a new chapter.",
+    "qb": "Hand in hand, with our elders' blessings, into a new chapter.",
     "ty": "Thank you! Your email app has opened with your message. Please tap send.",
     "ht": "#NaDhaSangama",
-    "inv2": "Together with our families, we warmly invite you to bless our wedding.",
+    "inv2": "With the blessings of both our families, we joyfully invite you to be a part of our wedding celebration.",
     "cal": "Add to calendar",
     "share": "Share on WhatsApp",
-    "sharet": "With great joy, we invite you to celebrate the wedding of Nagesh Pai with Dhanyashree ❤️💍\n\nAll the wedding details are here:",
-  "sharef": "Your presence would make our celebration even more special! ✨\n\nWith love,\nThe families of Nagesh & Dhanyashree ❤️",
+    "sharet": "With great joy, we invite you to celebrate the wedding of Nagesh Pai & Dhanyashree ❤️💍\n\nAll the wedding details are here:",
+    "sharef": "Your presence would make our celebration even more special! ✨\n\nWith love,\nNagesh & Dhanyashree, and both our families ❤️",
     "mo": [
       "NOV",
       "NOV",
@@ -219,10 +219,10 @@ const S = {
     "ev": "Schedule of Events",
     "evs": "We look forward to celebrating with you",
     "dir": "View directions",
-    "inb": "Invited by",
-    "in": "Smt. Kasthuri & Sri Satyendra Pai, Aleya, Nadur",
-    "cb": "With best compliments from",
-    "c": "Bhandarkar’s Family, Bhatkal · Aleya Pai Family",
+    "inb": "Together with our families, we invite you to",
+    "in": "Celebrate our wedding with us",
+    "cb": "With love & blessings from",
+    "c": "The families of Nagesh & Dhanyashree",
     "bl": "Leave your blessings",
     "bls": "Your message goes privately to the couple.",
     "nm": "Your name",
